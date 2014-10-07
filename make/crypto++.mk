@@ -21,8 +21,8 @@
 # "NSLU2 Linux" other developers will feel free to edit.
 #
 CRYPTO++_SITE=http://$(SOURCEFORGE_MIRROR)/sourceforge/cryptopp
-CRYPTO++_VERSION=5.6.0
-CRYPTO++_DIR=cryptopp560
+CRYPTO++_VERSION=5.6.2
+CRYPTO++_DIR=cryptopp562
 CRYPTO++_SOURCE=$(CRYPTO++_DIR).zip
 CRYPTO++_UNZIP=unzip
 CRYPTO++_MAINTAINER=NSLU2 Linux <nslu2-linux@yahoogroups.com>
@@ -46,7 +46,8 @@ CRYPTO++_CONFLICTS=
 # CRYPTO++_PATCHES should list any patches, in the the order in
 # which they should be applied to the source code.
 #
-CRYPTO++_PATCHES=$(CRYPTO++_SOURCE_DIR)/mipsel-endian.patch
+#CRYPTO++_PATCHES=$(CRYPTO++_SOURCE_DIR)/mipsel-endian.patch
+#CRYPTO++_PATCHES=$(CRYPTO++_SOURCE_DIR)/gcc4.7.patch
 
 #
 # If the compilation of the package requires additional
