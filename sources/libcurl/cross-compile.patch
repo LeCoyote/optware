@@ -1,0 +1,11 @@
+--- libcurl/configure.orig	2014-10-07 09:56:31.793912782 +0200
++++ libcurl/configure	2014-10-07 09:56:40.827439700 +0200
+@@ -585,7 +585,7 @@ ac_default_prefix=/usr/local
+ ac_clean_files=
+ ac_config_libobj_dir=.
+ LIBOBJS=
+-cross_compiling=no
++cross_compiling=yes
+ subdirs=
+ MFLAGS=
+ MAKEFLAGS=

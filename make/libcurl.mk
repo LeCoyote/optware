@@ -51,7 +51,8 @@ LIBCURL_CONFFILES=#/opt/etc/libcurl.conf /opt/etc/init.d/SXXlibcurl
 # LIBCURL_PATCHES should list any patches, in the the order in
 # which they should be applied to the source code.
 #
-LIBCURL_PATCHES=$(LIBCURL_SOURCE_DIR)/timeval-uclibc.patch
+LIBCURL_PATCHES=$(LIBCURL_SOURCE_DIR)/timeval-uclibc.patch $(LIBCURL_SOURCE_DIR)/cross-compile.patch
+
 
 #
 # If the compilation of the package requires additional
